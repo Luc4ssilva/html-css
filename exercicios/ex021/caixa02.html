@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            background-image: url(albina-white.jpg);
+            background-repeat: no-repeat;
+            background-position-x:center;
+
+            
+        }
+        header > h1{
+            text-align: center;
+        
+        }
+        header{
+            background-image: linear-gradient(to right, #A65151, #59272D);
+            padding: 10px;
+            margin: auto;
+            width: 797px;
+            border-radius: 7px;
+            box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+
+        }
+        main{
+            background-color: white;
+            padding: 9px;
+            margin: auto;
+            width: 797px;
+            margin-top: 10px;
+            border-radius: 7px;
+            box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+        }
+        footer{
+            background-color: #A65151;
+            text-align: center;
+            font-weight: normal;
+            color: white;
+            padding: 5px 9px 5px 9px;
+            width: 800px;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 7px;
+            box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+        
+        }
+        article{
+            background-color: #c2a28f;
+            padding: 10px;
+            margin: -2px;
+        article > aside {
+            background-color: #836e61;
+        }
+        nav{
+            background-color: #A65151;
+            padding: 4px;
+            box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+        }
+        nav > a{
+            text-decoration: none;
+            margin-right: 30px;
+            color: #FDD5BC;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+         
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat id ducimus voluptas, dicta et aliquid repellat debitis neque beatae aperiam doloremque unde delectus omnis molestias distinctio iste cumque quo ea.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Outras noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aut maiores inventore recusandae perferendis sapiente atque illo neque, in blanditiis velit ullam reiciendis tempore consequatur. Consequuntur necessitatibus ab natus voluptatem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste, mollitia fuga molestias, ipsam iure adipisci neque, officia velit consequuntur sit animi? Maxime impedit perspiciatis doloribus similique rerum. Architecto, officiis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quo perferendis quaerat explicabo harum impedit, minus earum qui assumenda cumque aliquam accusantium numquam officiis omnis cupiditate officia, voluptate eaque sint?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido pelo Luquinhaspleis
+    </footer>
+</body>
+</html>
